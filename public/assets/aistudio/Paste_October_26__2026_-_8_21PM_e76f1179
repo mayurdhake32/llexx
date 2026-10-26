@@ -1,0 +1,922 @@
+# MASTER PROMPT: PREMIUM LAW FIRM WEBSITE WITH COURSES, BLOGS, TEAM, AND SECURE CLIENT PORTAL
+
+## PROJECT OVERVIEW
+
+Act as an elite UI/UX designer, senior full-stack engineer, cybersecurity specialist, database architect, SEO expert, and legal technology consultant.
+
+Build a premium, modern, highly interactive, responsive, and secure law firm website for an Indian legal practice. The website must communicate trust, professional excellence, confidentiality, integrity, and authority.
+
+This must be a complete, functional web application, not just a static design, landing page, or frontend prototype.
+
+The website must include:
+
+- Professional law firm homepage.
+- About the firm and advocate profile.
+- Practice areas and individual service pages.
+- Our Team section with individual profiles.
+- Courses platform with enrollment and student learning dashboard.
+- Legal Blogs and knowledge hub.
+- Appointment booking system.
+- Secure contact and inquiry forms.
+- Secure client portal.
+- Protected administrator dashboard.
+- Search, filters, notifications, and interactive components.
+- Privacy policy, terms, and legal disclaimers.
+- Database integration, authentication, security controls, and testing.
+
+All modules must work together within one cohesive application. Avoid disconnected pages, dead buttons, fake submissions, placeholder interactions, and inconsistent design.
+
+# 1. MANDATORY VISUAL DESIGN SYSTEM
+
+Use this exact premium visual identity throughout the entire website.
+
+### Color palette
+
+- Deep Navy: `#101C2C` — primary brand color, navigation, footer, dark sections, and headings where appropriate.
+- Elegant Ivory: `#F7F4ED` — primary light background and content sections.
+- Muted Gold: `#B99A5B` — refined accents, thin dividers, icons, borders, and selected interactive states.
+- Supporting text: A readable, accessible dark charcoal on ivory and soft ivory on navy.
+- Supporting neutral surfaces: Subtle warm grays that complement the main palette.
+
+### Typography
+
+- Headings: Cormorant Garamond or Playfair Display.
+- Body text: Inter or a comparable modern sans-serif font.
+- Navigation, forms, tables, and dashboards: Highly readable sans-serif typography.
+- Use a consistent typographic scale, line height, and text hierarchy.
+
+### Layout and atmosphere
+
+- Generous whitespace.
+- Sophisticated editorial layouts.
+- Large but balanced headings.
+- High-quality professional photography.
+- Carefully aligned content grids.
+- Thin muted-gold separators.
+- Subtle borders and understated shadows.
+- Refined button designs.
+- Spacious article layouts.
+- Premium portrait compositions.
+- Restrained, smooth animations.
+- Elegant, accessible responsive navigation.
+
+Avoid excessive gradients, neon colors, cartoon illustrations, excessive rounded cards, flashy animations, unnecessary glassmorphism, and generic template aesthetics.
+
+Use professional legal office, advocate portrait, architectural, and law-library photography. Use licensed, authorized, or otherwise appropriately sourced images. Never present generated or stock people as actual firm members.
+
+Apply this same visual identity to Home, About, Practice Areas, Team, Courses, Blogs, Contact, Client Portal, Student Dashboard, and Admin Dashboard.
+
+## 2. WEBSITE NAVIGATION
+
+Create a refined navigation bar with:
+
+- Home
+- About
+- Practice Areas
+- Our Team
+- Courses
+- Blogs
+- Contact
+- Book Consultation
+- Client Portal
+
+On mobile, provide an accessible menu with proper keyboard handling and touch-friendly controls.
+
+Make the header sticky if it improves usability. Use a restrained transition when the header changes on scroll.
+
+Add a consistent footer containing:
+
+- Firm identity.
+- Office address and verified contact details.
+- Navigation links.
+- Practice-area links.
+- Courses and Blogs links.
+- Privacy Policy.
+- Terms of Use.
+- Legal Disclaimer.
+- Accessibility information.
+- Copyright notice.
+
+Use real, configurable business information. Never invent office addresses, registration numbers, contact details, awards, or professional credentials.
+
+# 3. HOME PAGE
+
+Build a premium homepage with the following sections.
+
+### Hero section
+
+Use a refined, spacious layout with a deep navy background, ivory typography, and subtle muted-gold details.
+
+Suggested headline:
+
+"Trusted Legal Guidance. Thoughtful Representation."
+
+Suggested supporting text:
+
+"Professional legal services, practical legal education, and clear guidance designed to help individuals and businesses better understand their legal options."
+
+Include two prominent actions:
+
+- Book a Consultation.
+- Explore Our Services.
+
+Add a professional image or architectural visual with appropriate responsive cropping.
+
+### Additional homepage sections
+
+1. Short introduction to the firm.
+2. Featured practice areas.
+3. Meet Our Team preview.
+4. Professional approach and values.
+5. How the consultation process works.
+6. Featured legal courses.
+7. Latest legal blog articles.
+8. Frequently asked questions.
+9. Office location and contact information.
+10. Final consultation CTA.
+
+Use genuine, verified information. Do not publish fabricated success rates, case outcomes, testimonials, client logos, or professional rankings.
+
+# 4. ABOUT THE FIRM AND ADVOCATE PROFILE
+
+Create an elegant About page featuring:
+
+- Advocate or firm biography.
+- Verified educational qualifications.
+- Verified professional experience.
+- Professional background and philosophy.
+- Areas of practice.
+- Professional milestones, if verified.
+- Office and jurisdiction details, if applicable.
+- Downloadable professional profile or brochure.
+- Link to the Team page.
+- Consultation CTA.
+
+Use editorial image-and-text layouts, serif headings, generous whitespace, and thin gold dividers.
+
+Make all professional information editable by authorized administrators.
+
+# 5. PRACTICE AREAS
+
+Create a Practice Areas overview page and individual pages at `/practice-areas/[slug]`.
+
+Support configurable categories such as:
+
+- Civil Litigation.
+- Criminal Law.
+- Property and Real Estate Disputes.
+- Consumer Protection.
+- Family and Matrimonial Matters.
+- Contract and Commercial Disputes.
+- Rent Agreements and Tenancy.
+- Legal Notices and Documentation.
+- Corporate and Business Legal Support.
+
+These are examples, not claims that the firm offers every service.
+
+Each page must contain:
+
+- Service introduction.
+- Common legal concerns.
+- General process overview.
+- Relevant FAQs.
+- Related practice areas.
+- Related educational articles.
+- Related courses where appropriate.
+- Contact and consultation CTA.
+- Legal information disclaimer.
+
+Use accessible content structures and SEO-friendly URLs.
+
+# 6. OUR TEAM — PROFESSIONAL TEAM MANAGEMENT
+
+Create a dedicated `/team` page with individual profiles at `/team/[slug]`.
+
+### Team introduction
+
+Use an elegant heading such as:
+
+"The People Behind Your Legal Support"
+
+Include a short introduction explaining the firm's professional approach and values.
+
+### Team member profiles
+
+Each profile can include:
+
+- Professional portrait.
+- Full name.
+- Verified designation.
+- Qualifications and enrollment details, where appropriate.
+- Professional biography.
+- Verified practice areas.
+- Languages spoken, where verified.
+- Professional publications and milestones, if applicable.
+- Public professional contact links, where appropriate.
+
+Support configurable roles such as:
+
+- Managing Partner or Principal Advocate.
+- Senior Advocate.
+- Associate Advocate.
+- Legal Consultant.
+- Legal Researcher.
+- Paralegal or Legal Assistant.
+- Administrative Support.
+
+Only display real team members and roles that exist.
+
+### Interactive team functionality
+
+Implement:
+
+- Search by team member name.
+- Filters by role, department, or practice area.
+- Individual profile pages.
+- Accessible profile modals if appropriate.
+- Related practice-area links.
+- Responsive portrait layouts.
+- Subtle image and hover transitions.
+- Contact or consultation CTA.
+- Homepage team-member preview.
+- Configurable featured team members and display order.
+
+### Team administration
+
+Authorized administrators must be able to:
+
+- Add, edit, publish, unpublish, and archive profiles.
+- Upload and replace portraits.
+- Edit biographies and verified qualifications.
+- Assign practice areas.
+- Set profile order.
+- Add image alt text.
+- Preview profiles before publishing.
+
+Store team information in the database. Enforce server-side permissions and secure image uploads.
+
+Never fabricate qualifications, team members, awards, or professional experience.
+
+# 7. COURSES PLATFORM — COMPLETE LEARNING MANAGEMENT SYSTEM
+
+Create a dedicated `/courses` page with a premium educational experience.
+
+### Course listing
+
+Each course card should display:
+
+- Course thumbnail.
+- Course title.
+- Short description.
+- Instructor.
+- Course category.
+- Difficulty level.
+- Duration.
+- Price or free label.
+- Enrollment CTA.
+
+Implement working:
+
+- Search by title, instructor, and keyword.
+- Category and difficulty filters.
+- Price filters.
+- Sorting by newest and price.
+- Popularity sorting only when supported by actual engagement data.
+- Pagination or accessible load-more functionality.
+- Featured courses and recently published courses.
+
+### Course detail pages
+
+Use `/courses/[slug]`.
+
+Include:
+
+- Course description.
+- Learning outcomes.
+- Instructor profile.
+- Curriculum with modules and lessons.
+- Course duration and difficulty.
+- Prerequisites.
+- Intended audience.
+- Free preview lessons where configured.
+- FAQs.
+- Related courses.
+- Related legal articles.
+- Pricing, taxes where applicable, and refund policy.
+- Enrollment CTA.
+
+### Student learning dashboard
+
+Create a protected `/learn` area.
+
+Features:
+
+- Secure registration and login.
+- Enrolled course list.
+- Video and text lessons.
+- Authorized downloadable resources.
+- Module and lesson navigation.
+- Lesson completion tracking.
+- Persistent progress bar.
+- Resume from previous learning position.
+- Quizzes and automatic scoring where configured.
+- Course completion certificates based on defined requirements.
+- Student profile and learning history.
+- Notifications for relevant learning updates.
+- Responsive video player.
+- Accessible keyboard controls.
+
+Only authorized users may access restricted lessons and materials. Never expose private video URLs, answer keys, paid downloads, or restricted files.
+
+### Free and paid enrollment
+
+Support both free and paid courses.
+
+For paid courses, integrate a payment provider such as Razorpay when configured.
+
+Implement:
+
+- Server-side payment verification.
+- Authenticated webhook verification.
+- Duplicate payment and enrollment prevention.
+- Payment-pending, successful, failed, and refunded states.
+- Receipts or invoices where applicable.
+- Enrollment confirmation.
+- Authorized refund workflows.
+- Transaction history.
+
+Never trust client-side payment-success messages or store card details.
+
+If payment credentials are unavailable, clearly document the integration requirements. Do not simulate successful payments.
+
+### Course administration
+
+Allow authorized administrators to:
+
+- Create, edit, publish, and archive courses.
+- Manage instructors.
+- Upload thumbnails and lesson resources.
+- Create and reorder modules and lessons.
+- Configure free or paid enrollment.
+- Set course pricing and access rules.
+- Designate preview lessons.
+- Manage quizzes and passing scores.
+- Configure certificate eligibility.
+- View enrollment and completion statistics.
+- Manage student enrollments and permitted refunds.
+- Preview courses before publishing.
+- Export authorized reports.
+
+# 8. BLOGS — LEGAL KNOWLEDGE AND PUBLISHING PLATFORM
+
+Create a dedicated `/blogs` page and individual pages at `/blogs/[slug]`.
+
+### Blog homepage
+
+Include:
+
+- Featured article.
+- Latest legal articles.
+- Categories and tags.
+- Search.
+- Filters by category, tag, and publication date.
+- Author details.
+- Publication date and reading time.
+- Related courses.
+- Responsive article cards.
+- Pagination.
+- Newsletter subscription, if enabled.
+- Popular articles based on real engagement data.
+
+Suggested categories:
+
+- Legal Updates.
+- Consumer Protection.
+- Property and Real Estate Law.
+- Civil Law.
+- Criminal Law.
+- Family and Matrimonial Law.
+- Business and Corporate Law.
+- Contracts and Agreements.
+- Legal Awareness.
+- Frequently Asked Legal Questions.
+- Case Law Analysis.
+- Legal Education and Courses.
+
+### Individual article pages
+
+Include:
+
+- SEO-friendly slug.
+- Title and subtitle.
+- Cover image.
+- Author information.
+- Publication and last-updated dates.
+- Rich text content.
+- Automatically generated table of contents.
+- Reading progress indicator.
+- Estimated reading time.
+- Share links.
+- Copy-link action.
+- Print-friendly layout.
+- Related articles.
+- Related courses.
+- Accessible font sizing and line spacing.
+- General legal information disclaimer.
+
+Verify legislation, judgments, citations, quotations, and legal updates before publication. Do not fabricate sources or present general information as personalized legal advice.
+
+### Blog administration
+
+Create a protected article editor supporting:
+
+- Rich text or Markdown.
+- Headings, lists, tables, links, quotations, and images.
+- Image alt text.
+- Draft, scheduled, published, and archived statuses.
+- Autosave with reliable error handling.
+- Preview before publication.
+- SEO titles and meta descriptions.
+- Canonical URL settings.
+- Category and tag management.
+- Author assignment.
+- Featured article selection.
+- Publication scheduling.
+- Revision history where supported.
+- Search and filters in the admin dashboard.
+- Confirmation before deleting or archiving.
+
+Only authorized users may create, edit, publish, or delete articles.
+
+# 9. SMART LEGAL KNOWLEDGE FEATURES
+
+Implement the following genuinely functional features.
+
+### Smart Consultation Assistant
+
+A guided questionnaire that helps visitors identify the general type of legal service they may need.
+
+It must not make definitive legal judgments, promise outcomes, or replace advice from an advocate.
+
+### Legal Document Checklist
+
+Provide configurable, downloadable checklists for selected legal procedures. Explain that requirements vary by jurisdiction and individual circumstances.
+
+### Global Search
+
+Search across published practice areas, team profiles, courses, blogs, and FAQs.
+
+Display clearly categorized results with working links.
+
+Exclude private client records, restricted course materials, unpublished content, and administrative information.
+
+### Related Content
+
+Connect practice areas, courses, blogs, and team profiles where relevant.
+
+For example:
+
+- A consumer protection article can link to a relevant course.
+- A course can link to supporting educational articles.
+- An advocate profile can link to verified practice areas.
+- A practice-area page can link to relevant team profiles.
+
+# 10. APPOINTMENT BOOKING SYSTEM
+
+Create a fully functional consultation request workflow.
+
+Features:
+
+- Practice-area selection.
+- Preferred date and available time selection.
+- Name, email, and phone fields.
+- Preferred contact method.
+- Brief initial inquiry.
+- Server-side availability validation.
+- Double-booking prevention.
+- Duplicate-submission prevention.
+- Confirmation notifications.
+- Rescheduling and cancellation request workflows.
+- Appointment reference number.
+- Loading, validation, success, and failure states.
+
+Create an administrator calendar with configurable working hours, blocked dates, appointment statuses, and availability.
+
+Do not show an appointment as confirmed until the backend successfully reserves the slot.
+
+# 11. CONTACT PAGE
+
+Create `/contact` with:
+
+- Secure contact form.
+- Verified office address and business contact details.
+- Working hours.
+- Click-to-call and email links.
+- Optional map integration.
+- Inquiry reference number.
+- Privacy and confidentiality notice.
+- Accessible validation and confirmation messages.
+
+Implement server-side validation, rate limiting, spam prevention, and secure email notifications.
+
+Warn visitors not to submit confidential documents, passwords, financial account details, or sensitive case materials through the general inquiry form.
+
+# 12. SECURE CLIENT PORTAL
+
+Create an optional protected `/client-portal` area.
+
+Features:
+
+- Secure login and logout.
+- Email verification.
+- Password reset with expiring, single-use tokens.
+- Multi-factor authentication where supported.
+- Client profile.
+- Appointment history.
+- Consultation status after secure verification.
+- Matter-specific communications.
+- Secure document uploads and downloads.
+- Notifications.
+- Session management.
+- Account security controls.
+
+Enforce strict server-side authorization. Each client must only be able to access their own authorized records and documents.
+
+Use private storage, file validation, malware scanning where available, and short-lived access-controlled download links.
+
+Never expose confidential documents through public URLs or global search.
+
+# 13. ADMINISTRATOR DASHBOARD
+
+Create a separate protected `/admin` dashboard.
+
+Use deep navy navigation, ivory content surfaces, muted-gold accents, and readable sans-serif typography.
+
+### Dashboard modules
+
+- Overview and activity summary.
+- Appointment management.
+- Contact inquiry management.
+- Team management.
+- Practice-area management.
+- Course management.
+- Lesson and quiz management.
+- Student enrollment management.
+- Payment and permitted refund management.
+- Blog editor and publishing.
+- FAQ management.
+- Client account management.
+- Document access management.
+- Notification settings.
+- Office information and working hours.
+- Privacy and retention settings.
+- Audit logs.
+- Reports and permitted exports.
+
+Implement role-based permissions for administrators and staff.
+
+Add pagination, filtering, search, validation, confirmation dialogs, loading states, empty states, and clear error handling.
+
+Never rely on hiding frontend controls as the only authorization mechanism. Every protected operation must be authorized on the server.
+
+# 14. AUTHENTICATION AND USER ACCOUNTS
+
+Use a secure authentication system for clients, students, and authorized staff.
+
+Implement:
+
+- Secure registration and login.
+- Email verification.
+- Password reset.
+- Session expiration.
+- Secure logout.
+- Role-based access control.
+- Account status management.
+- User profile management.
+- Notification preferences.
+- Account deletion request workflow.
+- Optional saved articles and reading lists.
+- Enrolled course history.
+
+Use a maintained authentication library or reputable identity provider.
+
+Use secure cookies with appropriate HttpOnly, Secure, and SameSite settings.
+
+Never store plaintext passwords or authentication secrets in localStorage or sessionStorage.
+
+# 15. RECOMMENDED TECHNOLOGY STACK
+
+Build a maintainable full-stack application using:
+
+### Frontend
+
+- Next.js.
+- React.
+- TypeScript.
+- Tailwind CSS.
+- shadcn/ui or an equivalent accessible component library.
+- Framer Motion for restrained animations.
+- Lucide icons.
+
+### Backend
+
+- Next.js server routes or a separate secure API.
+- PostgreSQL.
+- Prisma or an equivalent type-safe ORM.
+- Zod or an equivalent validation library.
+
+### Authentication
+
+- A maintained authentication framework or trusted identity provider.
+- Server-side authorization.
+- Secure sessions.
+- Email verification and password reset.
+
+### File storage
+
+- Private object storage such as Amazon S3 or an equivalent service.
+- Short-lived signed URLs.
+- Upload validation and access controls.
+- Malware scanning where supported.
+
+### Payments and notifications
+
+- Razorpay or another suitable payment gateway, if configured.
+- A transactional email service.
+- Optional SMS provider.
+- Verified payment webhooks and appropriate retry handling.
+
+### Deployment
+
+- Vercel or a suitable hosting platform.
+- Managed PostgreSQL.
+- HTTPS.
+- Environment variables.
+- Database migrations.
+- Backups and recovery documentation.
+- Error monitoring and security monitoring.
+
+Choose stable, compatible package versions and document the actual versions used.
+
+# 16. DATABASE ARCHITECTURE
+
+Create a documented relational schema and migrations for:
+
+- Users and roles.
+- Permissions.
+- Client profiles.
+- Team members.
+- Practice areas.
+- Appointments and availability.
+- Contact inquiries.
+- Courses and categories.
+- Instructors.
+- Modules and lessons.
+- Enrollments and lesson progress.
+- Quizzes and quiz attempts.
+- Certificates.
+- Payments and refunds.
+- Blog posts.
+- Blog categories and tags.
+- Article revisions.
+- Bookmarks.
+- Newsletter subscriptions.
+- Documents and document metadata.
+- Notifications.
+- Audit events.
+- Privacy preferences.
+
+Use relational constraints, indexes, timestamps, appropriate status fields, and server-side authorization.
+
+Keep confidential client information separated from public content. Minimize the personal information collected and establish suitable retention policies.
+
+# 17. SECURITY REQUIREMENTS
+
+Treat security as a core requirement.
+
+Implement and test:
+
+- HTTPS-only production access.
+- Server-side input validation.
+- Safe database queries through a secure ORM.
+- XSS prevention and context-aware output encoding.
+- CSRF protections where applicable.
+- Content Security Policy and suitable security headers.
+- Secure session handling.
+- Rate limiting for login, password reset, booking, and contact endpoints.
+- Brute-force and abuse protection.
+- Role-based and object-level authorization.
+- Private file storage.
+- Secure upload validation.
+- Protection against path traversal and malicious files.
+- Safe error messages.
+- Secret management through environment variables.
+- Dependency auditing.
+- Audit logs for sensitive administrative operations.
+- Database backups and recovery procedures.
+- Data minimization and secure deletion workflows.
+- Payment-webhook signature verification.
+- Protection against duplicate requests and unauthorized enrollment.
+- Isolation between clients and student accounts.
+
+Never expose API secrets, private client records, restricted course content, or confidential case data in public frontend code.
+
+Do not send confidential client data to AI services or analytics platforms without appropriate authorization and safeguards.
+
+Do not claim the website is completely secure. Document residual risks and operational safeguards.
+
+# 18. INDIAN LEGAL AND PRIVACY COMPLIANCE
+
+Configure the website for an Indian legal practice.
+
+Include:
+
+- Privacy Policy.
+- Terms of Use.
+- Website Disclaimer.
+- Confidentiality Notice.
+- Personal data collection and retention disclosures.
+- Appropriate consent and notice mechanisms.
+- Privacy request and correction workflows.
+- Grievance or privacy contact where required.
+- Appropriate governing-law and jurisdiction wording reviewed by the firm.
+
+Respect applicable Indian data protection requirements and Bar Council of India professional conduct rules, including restrictions relevant to advocate advertising and solicitation.
+
+Do not publish misleading promotional claims, guaranteed results, fabricated testimonials, unsupported rankings, or unverified professional credentials.
+
+Obtain qualified legal review of website content, course marketing, testimonials, and public-facing promotional functionality before launch.
+
+Ensure paid educational courses are presented in a manner consistent with applicable professional obligations.
+
+# 19. RESPONSIVE DESIGN AND ACCESSIBILITY
+
+Ensure the entire application works on:
+
+- Desktop computers.
+- Laptops.
+- Tablets.
+- Android phones.
+- iPhones.
+
+Implement:
+
+- Mobile-first layouts.
+- Responsive navigation.
+- Touch-friendly controls.
+- Semantic HTML.
+- Keyboard navigation.
+- Visible focus indicators.
+- Screen-reader labels.
+- Accessible forms.
+- Sufficient color contrast.
+- Reduced-motion preferences.
+- Accessible accordions, dialogs, tables, and video controls.
+
+Target WCAG 2.2 AA-oriented accessibility practices.
+
+Avoid horizontal overflow, hover-only interactions, unreadable text, and inaccessible custom controls.
+
+# 20. SEO AND PERFORMANCE
+
+Implement:
+
+- Server-side rendering or static generation for suitable public pages.
+- Optimized images and fonts.
+- Lazy loading where appropriate.
+- Code splitting.
+- Efficient database queries.
+- XML sitemap.
+- robots.txt.
+- Canonical URLs.
+- Unique page titles and meta descriptions.
+- Open Graph metadata.
+- Appropriate structured data only where valid.
+- Search-friendly practice-area pages.
+- Course and blog metadata.
+- Custom 404 and error pages.
+- Performance monitoring.
+- Privacy-conscious analytics where configured.
+
+Aim for strong Core Web Vitals and fast loading on typical Indian mobile networks.
+
+Do not fabricate reviews, ratings, or structured data.
+
+# 21. TESTING AND QUALITY ASSURANCE
+
+Use appropriate tools such as Vitest and Playwright.
+
+Test:
+
+- Navigation and all public routes.
+- Responsive layouts.
+- Team profile management.
+- Practice-area search.
+- Course discovery and enrollment.
+- Free and paid course access.
+- Payment verification when configured.
+- Lesson progress and quiz scoring.
+- Certificate eligibility.
+- Blog publishing and editing.
+- Search and filters.
+- Appointment booking and double-booking prevention.
+- Authentication and password reset.
+- Role-based authorization.
+- Cross-client data isolation.
+- Document upload and download permissions.
+- Newsletter subscription and unsubscribe.
+- Form validation.
+- Rate limiting.
+- Accessibility.
+- Database migrations.
+- Error recovery.
+
+Fix build errors and failing tests before declaring completion.
+
+Use synthetic test data during development. Never use real client information in demonstrations.
+
+# 22. REQUIRED DELIVERABLES
+
+Provide:
+
+1. Complete responsive website source code.
+2. Consistent design system and reusable components.
+3. All public pages and individual detail pages.
+4. Functional Team, Courses, and Blogs modules.
+5. Appointment and contact workflows.
+6. Backend APIs and database schema.
+7. Authentication and role-based authorization.
+8. Client portal and student dashboard.
+9. Protected administrator dashboard.
+10. Security headers and input validation.
+11. Database migrations and seed data using fictional examples.
+12. Automated tests.
+13. `.env.example` with placeholders only.
+14. Installation instructions.
+15. Deployment instructions.
+16. Database backup and recovery documentation.
+17. Required integration credentials checklist.
+18. Security checklist.
+19. Pre-launch verification checklist.
+20. Documentation of incomplete integrations or known limitations.
+
+# 23. IMPLEMENTATION WORKFLOW
+
+Follow this sequence:
+
+Phase 1: Define the information architecture, design tokens, database schema, and security boundaries.
+
+Phase 2: Build the reusable design system, navigation, footer, homepage, About page, and Practice Areas.
+
+Phase 3: Implement Team Management and individual team profiles.
+
+Phase 4: Implement the Courses platform, student dashboard, enrollment, quizzes, and certificate workflows.
+
+Phase 5: Implement the Blogs platform, editor, search, publishing, and SEO.
+
+Phase 6: Implement appointment booking, contact forms, client portal, and notifications.
+
+Phase 7: Build the administrator dashboard and connect all modules to the database.
+
+Phase 8: Implement security controls, privacy requirements, performance optimization, and accessibility.
+
+Phase 9: Run automated tests, resolve defects, and prepare deployment documentation.
+
+Do not stop after generating the homepage. Complete and test each major workflow.
+
+If credentials or infrastructure are unavailable, identify the missing configuration and implement only what can be honestly completed. Never simulate successful payments, email delivery, appointments, or other external actions.
+
+# 24. FINAL ACCEPTANCE CRITERIA
+
+The project is complete only when:
+
+- The website follows the exact deep navy, ivory, muted-gold theme.
+- Serif headings and modern sans-serif body typography are applied consistently.
+- Professional photography and generous whitespace are used throughout.
+- The homepage and every major navigation item work.
+- Team members can be managed through the administrator dashboard.
+- Visitors can browse and search practice areas.
+- Students can browse courses and access authorized lessons.
+- Paid enrollment is enabled only after real payment integration and verification.
+- Administrators can publish, edit, schedule, and archive blog articles.
+- Readers can search articles and access related educational resources.
+- Appointment requests are validated and persisted.
+- Clients can access only their own authorized information.
+- Restricted course materials and documents are protected.
+- All buttons, forms, links, filters, and interactive elements perform their intended actions.
+- The site works across mobile, tablet, and desktop.
+- Security and authorization tests pass.
+- The application builds successfully.
+- Deployment instructions and outstanding configuration requirements are documented.
+
+## FINAL CREATIVE DIRECTION
+
+Create a sophisticated legal institution's digital presence that feels custom-designed, premium, calm, and trustworthy.
+
+The visual identity must remain consistent everywhere:
+
+**Deep navy + elegant ivory + muted gold + elegant serif typography + professional photography + generous whitespace.**
+
+Combine the authority of a premium law firm with the functionality of a modern educational platform and legal knowledge hub.
+
+Deliver a unified, secure, maintainable, responsive, fully interactive website ready for real-world deployment after credentials, professional content, legal review, and production configuration are completed.
